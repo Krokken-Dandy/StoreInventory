@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/main_dark_purple" />
+    <corners android:radius="@dimen/popup_button_corner_radius" />
+    <stroke
+        android:color="@color/main_dark_purple"
+        android:width="@dimen/popup_button_stroke_width" />
+</shape>

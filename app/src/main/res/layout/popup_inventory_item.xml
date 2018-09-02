@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_background"
+    android:focusable="true"
+    android:padding="@dimen/scroll_view_padding_popup_inventory_item">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/popup_delete_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/delete_item_margin_right_popup_inventory_item"
+            android:contentDescription="@string/content_description_delete_item_popup_inventory_item"
+            android:src="@drawable/ic_delete_forever"
+            app:layout_constraintRight_toLeftOf="@id/popup_edit_item"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/popup_edit_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/content_description_edit_item_popup_inventory_item"
+            android:src="@drawable/ic_mode_edit"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/popup_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/product_name_margin_top_popup_inventory_item"
+            android:paddingBottom="@dimen/product_name_padding_bottom_popup_inventory_item"
+            android:textSize="@dimen/product_name_text_size_popup_inventory_item"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popup_edit_item"
+            tools:text="Product Name" />
+
+        <ImageView
+            android:id="@+id/popup_item_image"
+            android:layout_width="@dimen/item_image_width_popup_inventory_item"
+            android:layout_height="@dimen/item_image_height_popup_inventory_item"
+            android:contentDescription="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/popup_product_name"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/popup_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_item_image"
+            android:padding="@dimen/product_price_padding_popup_inventory_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popup_item_image"
+            tools:text="Product Price" />
+
+        <TextView
+            android:id="@+id/popup_product_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_product_price"
+            android:padding="@dimen/product_quantity_padding_popup_inventory_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/popup_product_price"
+            app:layout_constraintTop_toBottomOf="@+id/popup_item_image"
+            tools:text="Product Quantity" />
+
+        <TextView
+            android:id="@+id/popup_product_shipping_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_product_quantity"
+            android:padding="@dimen/product_shipping_fee_padding_popup_inventory_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popup_product_price"
+            tools:text="Product Shipping fee" />
+
+        <TextView
+            android:id="@+id/popup_product_stock_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/product_stock_type_padding_popup_inventory_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/popup_product_shipping_fee"
+            tools:text="Product stock type" />
+
+        <TextView
+            android:id="@+id/popup_supplier_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/supplier_name_padding_popup_inventory_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popup_product_stock_type"
+            tools:text="Supplier Name" />
+
+        <ImageView
+            android:id="@+id/popup_supplier_phone_number_icon"
+            android:layout_width="@dimen/supplier_phone_number_icon_width_popup_inventory_item"
+            android:layout_height="@dimen/supplier_phone_number_icon_height_popup_inventory_item"
+            android:src="@drawable/ic_action_phone_start"
+            app:layout_constraintBottom_toBottomOf="@id/popup_supplier_phone_number"
+            app:layout_constraintLeft_toRightOf="@id/popup_supplier_phone_number"
+            app:layout_constraintTop_toTopOf="@id/popup_supplier_phone_number" />
+
+        <TextView
+            android:id="@+id/popup_supplier_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/supplier_phone_number_padding_popup_inventory_item"
+            android:textColor="@android:color/holo_blue_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/popup_supplier_name"
+            tools:text="Supplier Phone Number" />
+
+        <Button
+            android:id="@+id/popup_sell_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/sell_item_button_padding_popup_inventory_item"
+            android:layout_margin="@dimen/sell_item_button_margin_popup_inventory_item"
+            android:text="@string/sell_item_button_text_popup_inventory_item"
+            android:background="@drawable/popup_button_background_alternate"
+            app:layout_constraintLeft_toRightOf="@id/popup_order_item"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/popup_supplier_phone_number" />
+
+        <Button
+            android:id="@+id/popup_order_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/order_item_button_padding_popup_inventory_item"
+            android:layout_margin="@dimen/order_item_button_margin_popup_inventory_item"
+            android:text="@string/order_item_button_text_popup_inventory_item"
+            tools:background="@drawable/popup_button_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/popup_sell_item"
+            app:layout_constraintTop_toBottomOf="@id/popup_supplier_phone_number" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

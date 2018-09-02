@@ -1,0 +1,124 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">Krokken\'s Inventory</string>
+    <string name="editor_title_add_new_item">Add an Item</string>
+    <string name="editor_title_edit_old_item">Edit an Item</string>
+
+    <!-- Menu options-->
+    <!-- Main activity menu-->
+    <string name="menu_option_save_new_dummy_item">Insert Dummy Item</string>
+    <string name="menu_option_delete_database">Delete Database</string>
+    <!--Editor Activity menu-->
+    <string name="menu_option_save_new_item">Save new Item</string>
+    <string name="menu_option_delete_item">Delete Item</string>
+
+    <!-- Spinner strings-->
+    <!-- First spinner, for shipping costs-->
+    <string name="spinner_shipping_international_free">Free International Shipping</string>
+    <string name="spinner_shipping_local_free">Free Local Shipping</string>
+    <string name="spinner_shipping_base_cost">$7 Shipping</string>
+    <!-- Second spinner, for stock/non-stock items-->
+    <string name="spinner_special_order">Special order item</string>
+    <string name="spinner_custom_order">Custom order item</string>
+    <string name="spinner_replenish_order">Regularly replenished item</string>
+
+    <!--Illegal Argument Exception Strings-->
+    <string name="IAE_get_type_unknown_uri">Unknown URI:</string>
+    <string name="IAE_get_type_with_match">" with match "</string>
+    <string name="IAE_insert_insertion_not_supported">Insertion is not supported for</string>
+    <string name="IAE_update_update_not_supported">Update not supported for</string>
+    <string name="IAE_query_query_not_supported">Cannot query unknown URI:</string>
+    <string name="IAE_delete_delete_not_supported">Delete is not supported for</string>
+    <string name="IAE_insert_inventory_item_product_name">Item is missing a name</string>
+    <string name="IAE_insert_inventory_item_product_price">Item is missing a price</string>
+    <string name="IAE_insert_inventory_item_product_quantity">Item is missing a positive quantity</string>
+    <string name="IAE_insert_inventory_item_supplier_name">Item is missing a supplier name</string>
+    <string name="IAE_insert_inventory_item_supplier_phone_number">Item is missing a supplier phone number</string>
+
+    <!-- Dialog text-->
+    <string name="dialog_delete_all_positive">Delete all</string>
+    <string name="dialog_delete_all_question">Do you wish to delete all items in the inventory?</string>
+    <string name="dialog_delete_all_negative">Cancel</string>
+    <string name="dialog_unsaved_changes_message">There are unsaved changes</string>
+    <string name="dialog_unsaved_changes_positive">Discard</string>
+    <string name="dialog_unsaved_changes_negative">Continue editing</string>
+    <string name="dialog_delete_confirm_message">Are you sure you wish to delete this item?</string>
+    <string name="dialog_delete_confirm_positive">Delete</string>
+    <string name="dialog_delete_confirm_negative">Cancel</string>
+    <string name="dialog_image_confirm_message">Would you like to change the image?</string>
+    <string name="dialog_image_confirm_positive">Yes</string>
+    <string name="dialog_image_confirm_negative">No</string>
+    <string name="dialog_show_amount_negative">Cancel</string>
+    <string name="dialog_show_amount_message_pt_1">How many would you like to</string>
+    <string name="dialog_show_amount_message_pt_2">\?</string>
+    <string name="dialog_case_order">order</string>
+    <string name="dialog_case_sell">sell</string>
+    <string name="dialog_case_default">derp</string>
+
+    <!-- Dummy Item Strings -->
+    <string name="dummy_product_name">Windex</string>
+    <string name="dummy_product_price">199</string>
+    <string name="dummy_supplier_name">Mother\'s Cleaning Supplies</string>
+    <string name="dummy_supplier_phone_number">"8885551234"</string>
+    <string name="dummy_toast_failed_insert">New dummy item insert failed</string>
+
+    <!-- Popup window Strings -->
+    <string name="popup_quantity_on_hand_text">"Quantity: "</string>
+    <string name="popup_no_price_text">No Price Provided</string>
+    <string name="popup_no_product_name_text">No Name Provided</string>
+    <string name="popup_no_supplier_name_text">No Supplier Provided</string>
+    <string name="sell_item_button_text_popup_inventory_item">Sell</string>
+    <string name="order_item_button_text_popup_inventory_item">Order</string>
+    <string name="popup_quantity_case_ordered">Product Ordered</string>
+    <string name="popup_quantity_case_sold">Product Sold</string>
+    <string name="popup_case_quantity_default">Quantity changed</string>
+
+    <!-- Empty View Strings -->
+    <string name="empty_subtitle_text">Add some items to get started</string>
+    <string name="empty_title_text">Uh oh, it appears your inventory is empty</string>
+
+    <!-- Content  Descriptions Main Activity -->
+    <string name="content_description_fab_text_activity_main">Add Item</string>
+    <string name="content_description_empty_title_text_activity_main">No inventory found. Add items to get started</string>
+
+    <!-- Content Descriptions Editor Activity -->
+    <string name="content_description_product_name_activity_editor">product name</string>
+    <string name="content_description_product_price_activity_editor">product price</string>
+    <string name="content_description_product_quantity_activity_editor">product quantity</string>
+    <string name="content_description_spinner_shipping_activity_editor">How the item is shipped to the store</string>
+    <string name="content_description_spinner_stock_activity_editor">How the item is stocked</string>
+    <string name="content_description_supplier_name_activity_editor">Supplier Name</string>
+    <string name="content_description_supplier_phone_number_activity_editor">supplier phone number</string>
+
+    <!-- Content Descriptions Popup Window -->
+    <string name="content_description_edit_item_popup_inventory_item">Edit Item</string>
+    <string name="content_description_delete_item_popup_inventory_item">Delete Item</string>
+
+    <!-- Content Descriptions List Item -->
+    <string name="content_description_sell_item_list_item">Sell Item</string>
+    <string name="content_description_additional_information_list_item">Additional Information</string>
+
+    <!-- Toast Strings -->
+    <string name="toast_delete_all_rows_deleted">" rows have been deleted with the table."</string>
+    <string name="toast_new_item_failed">New item insert failed</string>
+    <string name="toast_new_item_saved">Item saved</string>
+    <string name="toast_update_item_failed">Item update failed</string>
+    <string name="toast_item_update_successful">Item update successful</string>
+    <string name="toast_delete_item_success">Item deleted</string>
+    <string name="toast_insert_item_fail_text">Failed to insert new item</string>
+    <string name="toast_dialog_show_amount_quantity_blank">You must enter a quantity</string>
+    <string name="toast_dialog_show_amount_oversell">You can\'t sell more than you have</string>
+    <string name="toast_popup_deleted_item">deleted</string>
+
+    <!-- Hint Strings -->
+    <string name="hint_product_quantity_activity_main">Quantity</string>
+    <string name="hint_supplier_name_activity_editor">Supplier Name</string>
+    <string name="hint_supplier_phone_number_activity_editor">Supplier Phone Number</string>
+    <string name="hint_product_name_activity_editor">Product Name</string>
+    <string name="hint_product_price_activity_editor">Price</string>
+    <string name="hint_alert_order_edit_text">Quantity</string>
+
+    <!-- Floating Label Strings -->
+    <string name="floating_label_phone_number_error">Phone Number must be 10 digits</string>
+
+</resources>

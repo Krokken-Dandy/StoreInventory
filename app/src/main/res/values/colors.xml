@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#0000</color>
+    <color name="main_dark_purple">#4444A4</color>
+    <color name="main_light_purple">#AAAAFA</color>
+    <color name="text_color_list_item_light">#AEB6BD</color>
+    <color name="text_color_list_item_dark">#2B3D4D</color>
+</resources>

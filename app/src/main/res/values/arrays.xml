@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_1">
+        <item>@string/spinner_shipping_base_cost</item>
+        <item>@string/spinner_shipping_local_free</item>
+        <item>@string/spinner_shipping_international_free</item>
+    </string-array>
+
+    <string-array name="spinner_2">
+        <item>@string/spinner_special_order</item>
+        <item>@string/spinner_custom_order</item>
+        <item>@string/spinner_replenish_order</item>
+    </string-array>
+</resources>

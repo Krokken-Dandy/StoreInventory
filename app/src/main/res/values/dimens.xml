@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- List item dimensions-->
+
+
+    <!-- Main Activity -->
+    <dimen name="empty_title_padding_top_activity_main">16dp</dimen>
+    <dimen name="empty_subtitle_padding_top_activity_main">8dp</dimen>
+    <dimen name="fab_margin_activity_main">32dp</dimen>
+
+    <!-- Editor Activity -->
+    <dimen name="constraint_layout_padding_activity_editor">16dp</dimen>
+    <dimen name="product_image_width_activity_editor">165dp</dimen>
+    <dimen name="product_image_height_activity_editor">165dp</dimen>
+    <dimen name="product_image_padding_activity_editor">16dp</dimen>
+    <dimen name="spinner_height_activity_editor">48dp</dimen>
+
+    <!-- Popup Window -->
+    <dimen name="product_name_margin_top_popup_inventory_item">8dp</dimen>
+    <dimen name="product_name_padding_bottom_popup_inventory_item">16dp</dimen>
+    <dimen name="product_name_text_size_popup_inventory_item">24sp</dimen>
+    <dimen name="scroll_view_padding_popup_inventory_item">16dp</dimen>
+    <dimen name="item_image_width_popup_inventory_item">165dp</dimen>
+    <dimen name="item_image_height_popup_inventory_item">165dp</dimen>
+    <dimen name="product_price_padding_popup_inventory_item">8dp</dimen>
+    <dimen name="product_quantity_padding_popup_inventory_item">8dp</dimen>
+    <dimen name="product_shipping_fee_padding_popup_inventory_item">8dp</dimen>
+    <dimen name="product_stock_type_padding_popup_inventory_item">8dp</dimen>
+    <dimen name="supplier_name_padding_popup_inventory_item">8dp</dimen>
+    <dimen name="supplier_phone_number_icon_width_popup_inventory_item">24dp</dimen>
+    <dimen name="supplier_phone_number_icon_height_popup_inventory_item">24dp</dimen>
+    <dimen name="supplier_phone_number_padding_popup_inventory_item">8dp</dimen>
+    <dimen name="sell_item_button_padding_popup_inventory_item">4dp</dimen>
+    <dimen name="sell_item_button_margin_popup_inventory_item">8dp</dimen>
+    <dimen name="order_item_button_padding_popup_inventory_item">4dp</dimen>
+    <dimen name="order_item_button_margin_popup_inventory_item">8dp</dimen>
+    <dimen name="delete_item_margin_right_popup_inventory_item">8dp</dimen>
+
+    <!-- List Item -->
+    <dimen name="product_name_padding_top_list_item">8dp</dimen>
+    <dimen name="product_name_padding_left_list_item">8dp</dimen>
+    <dimen name="product_price_padding_list_item">8dp</dimen>
+    <dimen name="product_quantitiy_padding_list_item">8dp</dimen>
+
+    <!-- Drawables -->
+    <dimen name="popup_background_corner_radius">6dip</dimen>
+    <dimen name="popup_background_stroke_width">7dp</dimen>
+    <dimen name="popup_button_corner_radius">5dp</dimen>
+    <dimen name="popup_button_stroke_width">1dp</dimen>
+    <dimen name="spinner_background_corner_radius">6dip</dimen>
+    <dimen name="spinner_background_stroke_width">1dp</dimen>
+
+   <!-- Alert Order -->
+    <dimen name="alert_order_edit_text_layout_text_size">24sp</dimen>
+</resources>
